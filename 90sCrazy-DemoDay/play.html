@@ -1,0 +1,321 @@
+<!DOCTYPE h<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width initial-scale=1">  
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Mouminatou Barry">
+      <!--Jquery-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <!--Javascript-->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!--Bootstrap-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!--Fonts-->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lemonada|Lobster+Two|Merriweather|Raleway|Rochester|Sail|Sansita">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Tab Icon-->
+    <link style="height:200px;" rel="shortcut icon" type="image/png" href="images/TransLogo.png">
+                                <title>90's Crazy</title>
+</head>
+<body><!--header-->
+  <div class="">
+
+    <div class="row">
+      <div class="col-md-12">
+          <div style="max-height:50px;"> 
+             
+                <center>    <h1>
+                            <span>✨</span>
+                            <span>M</span>
+                            <span>O</span>
+                            <span>e</span>
+                            <span>✨</span>
+                            </h1>
+                </center>
+            
+          </div>
+      </div>
+    </div>
+<h2>&nbsp;</h2><hr>
+
+     <div class="row"> 
+      <!--About-->
+        <center>
+                <div class="col-xs-6 col-sm-4 dropdown" style="">
+                  <img class="translogo animated hover:tada " src="images/TransLogo.png">
+                  <h3 style=""><button style="color:#0033FF; " class="myButton" class="dropbtn">👸🏾<br />  About</button></h3>
+                
+                  <div class="dropdown-content" style="color: black,left:0; font-size: 20px;">
+                    <a href="moe.html"><p style="color:white;" class="myButton1">✨MOe</p></a>
+                  </div>
+
+                  <div class="dropdown-content"> 
+                   <a href="ms.html"><p style="color:white;" class="myButton1">✨Mission Statement</p></a>
+                  </div> 
+               </div> 
+
+      
+      <!--/About-->
+    
+      <!--Cogni--> 
+                <div class="col-xs-6 col-sm-4 dropdown" style="">
+                  <img class="translogo animated hover:tada" src="images/TransLogo.png">
+                  <h3><button style="color:#ffdc4c;" class="myButton">🎨<br />  Cogni</button></h3>
+                    
+                  <div class="dropdown-content" style="left:0; font-size:12px">
+                    <a href="methods.html"><p style="color:white;" class="myButton1">✨Methods</p></a>
+                  </div>
+
+                  <div class="dropdown-content"> 
+                   <a href="tips.html"> <p style="color:white;" class="myButton1">✨Tips/WOTD</p></a>
+                  </div> 
+                </div>
+     
+      <!--/Cogni-->
+
+      <!--Play-->    
+                <div class="col-xs-6 col-sm-4 dropdown" style="">
+                  <img class="translogo animated hover:tada" src="images/TransLogo.png">
+                  <h3><button style="color:#0eff00;" class="myButton">🏆<br /> Play</button></h3>
+                   
+                  <div class="dropdown-content" style="left:0; font-size: 12px">
+                    <a href="play.html"><p  style="color:white;" class="myButton1">✨Try Now !</p></a>
+                  </div>
+                  
+                  <div class="dropdown-content"> 
+                    <a href="throwbacks.html"><p style="color:white;" class="myButton1">✨Throwbacks</p></a>
+                  </div> 
+
+                  <div class="dropdown-content"> 
+                 <a href="feedback.html"><p style="color:white;" class="myButton1">✨Feedback</p></a>
+                  </div>
+                </div>
+      <!--/Play-->  
+</center>
+  <!--div1 closing-->
+   </div>
+
+  <br /><center><h1>👇🏾</h1></center><br /><br />
+<div style="background: rgba(0,0,0,0.5); height:100px; width:1200px;">
+<center><h4 style="color: #ffffff;">Choose a Channel</h4></center>
+  
+   <h2>&nbsp;</h2>
+   <h2>&nbsp;</h2>
+</div>
+<!--Choose a Channel--><br/ >
+
+  <div class="container">
+      <div id="carousel">
+      <figure><img onclick="cnL1()" style="height:150px" src="images/CNLogo.png" alt=""></figure>
+      <figure><img onclick="disney()" style="height:200px" src="images/DisneyLogo.png" alt=""></figure>
+      <figure><img onclick="nickL1()" style="height:200px" src="images/NickLogo.png" alt=""></figure>
+      <figure><img onclick="miscL1()" style="height:150px" src="images/90sWiki.jpg" alt=""></figure>
+    </div>
+  </div>
+
+  <br/ >
+  <div>
+    
+  </div>
+  <div style="position: relative; top: 400px; left:200px;" id="game">
+    
+  </div>
+  <h1 style="position: relative; top:450px; left:200px;" id="response"></h1>
+<!--Close table-->
+
+<script type="text/javascript">
+  var screen= document.getElementById("game");
+  var games= {
+  CN:{
+    Level1:[
+      { question:"/Game/L1/CCDL1.wav", answer:"courage the cowardly dog"},
+
+      { question:"/Game/L1/RobotjonesL1.wav", answer:"robot jones"}  
+    ]
+  },
+
+  Disney:{
+    Level1:[
+      { question:"/Game/L1/RugratsL1.wav", answer:""},
+
+      { question:"/Game/L1/ChalkzoneL1.wav", answer:"Chalkzone"}  
+    ]
+  },
+
+  Nick:{
+    Level1:[
+      { question:"Game/L1/RugratsL1.wav", answer:"rugrats"},
+
+      { question:"Game/L1/ChalkzoneL1.wav", answer:"chalkzone"}  
+    ],
+    //Rugrats
+    Level2:[
+      { question:"Game/L2/Nick/Rugrats/Susie.png", answer:"susie carmichael"},
+      { question:"Game/L2/Nick/Rugrats/Tommy_Pickles.png", answer:"tommy pickles"}, 
+      {
+        question:"Game/L2/Nick/Rugrats/Angelica_Pickles.png", answer:"angelica pickles"
+      },
+      { question:"Game/L2/Nick/Rugrats/Chuckie_Finster.png", answer:"chuckie finster"}
+    ],
+      Level3:[
+      { 
+        question:"HEY ! Leave them little kids alone !", 
+        answer:"Game/L2/Nick/Rugrats/Susie.png",
+        choices: ["Game/L2/Nick/Rugrats/Susie.png", "Game/L2/Nick/Rugrats/Tommy_Pickles.png","Game/L2/Nick/Rugrats/Angelica_Pickles.png", "Game/L2/Nick/Rugrats/Chuckie_Finster.png"]
+      },
+      { 
+        question:"Aw, C'mon don't be a BABY !", 
+        answer:"Game/L2/Nick/Rugrats/Tommy_Pickles.png",
+        choices: ["Game/L2/Nick/Rugrats/Susie.png", "Game/L2/Nick/Rugrats/Tommy_Pickles.png","Game/L2/Nick/Rugrats/Angelica_Pickles.png", "Game/L2/Nick/Rugrats/Chuckie_Finster.png"]
+      },
+      { 
+        question:"You DUMB Babies !", 
+        answer:"Game/L2/Nick/Rugrats/Angelica_Pickles.png",
+        choices: ["Game/L2/Nick/Rugrats/Susie.png", "Game/L2/Nick/Rugrats/Tommy_Pickles.png","Game/L2/Nick/Rugrats/Angelica_Pickles.png", "Game/L2/Nick/Rugrats/Chuckie_Finster.png","Game/L2/Nick/Rugrats/Angelica_Pickles.png"]
+      },  
+      { 
+        question:"I dont think this is such a good idea Tommy", 
+        answer:"Game/L2/Nick/Rugrats/Chuckie_Finster.png",
+        choices: ["Game/L2/Nick/Rugrats/Susie.png", "Game/L2/Nick/Rugrats/Tommy_Pickles.png", "Game/L2/Nick/Rugrats/Angelica_Pickles.png", "Game/L2/Nick/Rugrats/Chuckie_Finster.png"]
+      }
+    ]
+  }
+ }
+  //CartoonNetwork Themes Songs
+  function CNL1() {
+    screen.innerHTML = '';
+    var random = Math.floor( (Math.random()* games.CN.Level1.length) );
+
+    var audio = document.createElement("audio");
+    audio.setAttribute("controls", true);
+
+    var source = document.createElement("source");
+    source.setAttribute("src", games.CN.Level1[random].question );
+    source.setAttribute("type","audio/wav");
+    audio.appendChild(source);
+    screen.appendChild(audio);
+
+    var input = document.createElement("input");
+    input.setAttribute("type", "text");
+    input.setAttribute("placeholder", "🤞🏾 Try it out 🤔" );
+    screen.appendChild(input);
+
+    var submit = document.createElement("input");
+    submit.setAttribute("type", "button");
+    submit.setAttribute("value", "Let's See");
+    submit.addEventListener("click", function(){
+      if(input.value.toLowerCase()==games.CN.Level1[random].answer){
+          //console.log(document.getElementById("response"));
+          document.getElementById("response").innerHTML = "Level Up";
+      }else{
+        //console.log("Try Again")
+
+          document.getElementById("response").innerHTML = "Try Again";
+      } 
+    });
+    screen.appendChild(submit);
+ }
+
+ //Disney Themes Songs
+//Nickolodeon Theme Songs
+ function nickL1() {
+    screen.innerHTML = '';
+
+    var level = document.createElement("h3");
+    level.innerHTML = "Level 1";
+    screen.appendChild(level);
+    var random = Math.floor( (Math.random()* games.Nick.Level1.length) );
+
+    var audio = document.createElement("audio");
+    audio.setAttribute("controls", true);
+    var source = document.createElement("source");
+    source.setAttribute("src", games.Nick.Level1[random].question );
+    source.setAttribute("type","audio/wav");
+    audio.appendChild(source);
+    screen.appendChild(audio);
+    var input = document.createElement("input");
+    input.setAttribute("type", "text");
+    input.setAttribute("placeholder", " Try it out 🤞🏾 " );
+    screen.appendChild(input);
+    var submit = document.createElement("input");
+    submit.setAttribute("type", "button");
+    submit.setAttribute("value", "Let's See");
+    submit.addEventListener("click", function(){
+      if(input.value.toLowerCase()==games.Nick.Level1[random].answer){
+          //console.log(document.getElementById("response"));
+          //document.getElementById("response").innerHTML = "Click here to Level Up";
+          document.getElementById("response").addEventListener("Click", nickL2());
+      }else{
+        //console.log("Try Again")
+
+          document.getElementById("response").innerHTML = "Try Again";
+      } 
+    });
+    screen.appendChild(submit);
+ }
+ //Nickolodeon L2 Visuals
+ function nickL2() {
+    screen.innerHTML = '';
+    var level = document.createElement("h3");
+    level.innerHTML = "Level 2";
+    screen.appendChild(level);
+
+    var random = Math.floor( (Math.random()* games.Nick.Level2.length) );
+
+    var image = document.createElement("img");
+    image.setAttribute("src", games.Nick.Level2[random].question);
+   
+    image.setAttribute("height", "300px");
+
+    screen.appendChild(image);
+    var input = document.createElement("input");
+    input.setAttribute("type", "text");
+    input.setAttribute("placeholder", "Full name 🤷🏽‍" );
+    screen.appendChild(input);
+    var submit = document.createElement("input");
+    submit.setAttribute("type", "button");
+    submit.setAttribute("value", "Let's See");
+    submit.addEventListener("click", function(){
+      if(input.value.toLowerCase()==games.Nick.Level2[random].answer){
+          //console.log(document.getElementById("response"));
+          //document.getElementById("response").innerHTML = "Level Up to 3";
+          document.getElementById("response").addEventListener("Click", nickL3());
+      }else{
+        //console.log("Try Again")
+
+          document.getElementById("response").innerHTML = "Try Again";
+      } 
+    });
+    screen.appendChild(submit);
+ }
+ //Nickolodeon L3 Logic
+ function nickL3() {
+    screen.innerHTML = '';
+    var random = Math.floor( (Math.random()* games.Nick.Level3.length) );
+
+    var slogan = document.createElement("p");
+    slogan.innerHTML =  games.Nick.Level3[random].question;
+    screen.appendChild(slogan);
+    for (var i in games.Nick.Level3[random].choices) {
+      var img = document.createElement("img");
+      img.setAttribute("src", games.Nick.Level3[random].choices[i] );
+      img.setAttribute("height","200px");
+      screen.appendChild(img);
+      img.addEventListener("click", function(){
+          console.log(this.src);
+          console.log(games.Nick.Level3[random].answer);
+          if(this.getAttribute("src") == games.Nick.Level3[random].answer){
+            document.getElementById("response").innerHTML = "You're a true Rugrat";
+          }else{
+
+            document.getElementById("response").innerHTML = "Try Again";
+          }
+      });
+    }
+  
+ }
+</script>
+</body>
+</html>

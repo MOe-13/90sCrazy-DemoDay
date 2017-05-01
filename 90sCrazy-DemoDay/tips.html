@@ -1,0 +1,284 @@
+<!DOCTYPE h<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">  
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Mouminatou Barry">
+      <!--Jquery-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <!--Javascript-->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!--Bootstrap-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!--Fonts-->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lemonada|Lobster+Two|Merriweather|Raleway|Rochester|Sail|Sansita">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Tab Icon-->
+    <link style="height:200px;" rel="shortcut icon" type="image/png" href="images/TransLogo.png">
+                                <title>90's Crazy</title>
+</head>
+<body><!--header-->
+  <div class="">
+
+    <div class="row">
+      <div class="col-md-12">
+          <div style="max-height:50px;"> 
+             
+                <center>    <h1>
+                            <span>✨</span>
+                            <span>M</span>
+                            <span>O</span>
+                            <span>e</span>
+                            <span>✨</span>
+                            </h1>
+                </center>
+            
+          </div>
+      </div>
+    </div>
+<h2>&nbsp;</h2><hr>
+
+     <div class="row"> 
+      <!--About-->
+        <center>
+                <div class="col-xs-6 col-sm-4 dropdown" style="">
+                  <img class="translogo animated hover:tada " src="images/TransLogo.png">
+                  <h3 style=""><button style="color:#0033FF; " class="myButton" class="dropbtn">👸🏾<br />  About</button></h3>
+                
+                  <div class="dropdown-content" style="color: black,left:0; font-size: 20px;">
+                    <a href="moe.html"><p style="color:white;" class="myButton1">✨MOe</p></a>
+                  </div>
+
+                  <div class="dropdown-content"> 
+                   <a href="ms.html"><p style="color:white;" class="myButton1">✨Mission Statement</p></a>
+                  </div> 
+               </div> 
+
+      
+      <!--/About-->
+    
+      <!--Cogni--> 
+                <div class="col-xs-6 col-sm-4 dropdown" style="">
+                  <img class="translogo animated hover:tada" src="images/TransLogo.png">
+                  <h3><button style="color:#ffdc4c;" class="myButton">🎨<br />  Cogni</button></h3>
+                    
+                  <div class="dropdown-content" style="left:0; font-size:12px">
+                    <a href="methods.html"><p style="color:white;" class="myButton1">✨Methods</p></a>
+                  </div>
+
+                  <div class="dropdown-content"> 
+                   <a href="tips.html"> <p style="color:white;" class="myButton1">✨Tips/WOTD</p></a>
+                  </div> 
+                </div>
+     
+      <!--/Cogni-->
+
+      <!--Play-->    
+                <div class="col-xs-6 col-sm-4 dropdown" style="">
+                  <img class="translogo animated hover:tada" src="images/TransLogo.png">
+                  <h3><button style="color:#0eff00;" class="myButton">🏆<br /> Play</button></h3>
+                   
+                  <div class="dropdown-content" style="left:0; font-size: 12px">
+                    <a href="play.html"><p  style="color:white;" class="myButton1">✨Try Now !</p></a>
+                  </div>
+                  
+                  <div class="dropdown-content"> 
+                    <a href="throwbacks.html"><p style="color:white;" class="myButton1">✨Throwbacks</p></a>
+                  </div> 
+
+                  <div class="dropdown-content"> 
+                 <a href="feedback.html"><p style="color:white;" class="myButton1">✨Feedback</p></a>
+                  </div>
+                </div>
+      <!--/Play-->  
+</center>
+  <!--div1 closing-->
+   </div>
+
+   <h2>&nbsp;</h2><br /><center><h1>👇🏾</h1></center><br /><br />
+<div style="background: rgba(0,0,0,0.5); height:100px; width:1200px;">
+
+<center><h4 style="color: #ffffff;">MOe's Cheat Sheet</h4></center>
+  
+   <h2>&nbsp;</h2>
+   <h2>&nbsp;</h2>
+</div>
+<!--Moetechtainment--><br/ >
+<center><div class=col-md-12>
+<img style="height:400px;" src="Me/TransLogo.png">
+  
+</div></center>
+
+
+  <!--QUIZ-->
+<div style="position: relative; top:200px; left:200px;" >
+  <!--Fun Button-->
+<div  class="btn-wrapper">
+  <button style= "color: #ffffff;" type="button" class="btn">Think 🤔 + Try 📝 = Succeed 🏆 </button>
+</div>
+<canvas id="canvas"></canvas>
+
+</div>
+  <div>
+    <!--Copyright-->
+    <div class="footer-copyright">
+        <div style="position: relative; top:600px; left:100px;" class="container-fluid">
+            © 2017 Copyright: <a href="index.html"> MOe Techtainment </a>
+<!--This website is owned by Mouminatou Barry --><address>May 1, 2017</address>
+        </div>
+    </div>
+    <!--/Copyright-->
+  </div>
+
+<script type="text/javascript">
+//Fun Button
+var c = document.getElementById('canvas');
+var ctx = c.getContext('2d');
+var btn = document.getElementsByClassName('btn')[0];
+
+c.width = window.innerWidth;
+c.height = window.innerHeight;
+
+var mouseX = c.width / 2;
+var mouseY = c.height / 2;
+var txtPosition = 0;
+
+var particles = [];
+
+btn.addEventListener('mouseup', function(e){
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+  
+  createParticles();
+  changeText();
+});
+
+setTimeout(function(){
+  createParticles();
+}, 250);
+
+draw();
+
+function draw(){
+  
+  drawBg();
+  incParticles();
+  drawParticles();
+  
+  window.requestAnimationFrame(draw);
+  
+}
+
+function drawBg(){
+  ctx.rect(0, 0, c.width, c.height);
+  ctx.fillStyle = "rgb(0,0,0)";
+  ctx.fill();
+}
+
+function drawParticles(){
+  for(i = 0; i < particles.length; i++){
+    ctx.beginPath();
+    ctx.arc(particles[i].x,
+           particles[i].y,
+           particles[i].size,
+           0,
+           Math.PI * 3);
+    ctx.fillStyle = particles[i].color;
+    ctx.closePath();
+    ctx.fill();
+  }
+}
+
+function incParticles(){
+  for(i = 0; i < particles.length; i++){
+    particles[i].x += particles[i].velX;
+    particles[i].y += particles[i].velY;
+    
+    particles[i].size = Math.max(0, (particles[i].size - .05));
+    
+    if(particles[i].size === 0){
+      particles.splice(i, 1);
+    }
+  }
+}
+
+function createParticles(){
+  for(i = 0; i < 30; i++){
+    particles.push({
+      x: mouseX,
+      y: mouseY,
+      size: parseInt(Math.random() * 10),
+      color: 'rgb(' + ranRgb() + ')',
+      velX: ranVel(),
+      velY: ranVel()
+    });
+  }
+}
+
+function ranRgb(){
+  var colors = [
+    '255, 255, 255',
+    '0, 157, 255',
+    '0, 240, 168',
+    '255, 137, 233',
+    '0, 0, 0',
+    '56, 255,231',
+    '255, 215,0'
+  ];
+  
+  var i = parseInt(Math.random() * 30);
+  
+  return colors[i];
+}
+
+function ranVel(){
+  var vel = 0;
+  
+  if(Math.random() < 0.5){
+    vel = Math.abs(Math.random());
+  } else {
+    vel = -Math.abs(Math.random());
+  }
+      
+  return vel;
+}
+
+// Text
+
+var btnTxt = [
+  'Give yourself enough time to study 👌',
+  'FUN FACT 💡: Did you know, you just read this sentence for no reason 🤣',
+  '📚 Organize your study space ',
+   'Bring your CREATIVITY 🏰 to LIFE ✨ ',
+  '✍🏿 Practice on past exams 👩🏽‍💻',
+  '🗣 Justify your opinions',
+  'Always question why things work 🙍🏾‍💭',
+  '🤾🏽 Be active',
+  'Snack on Brain Food 🍇🥔🥑 ',
+  'Take regular breaks ',
+  '🎧 Listen to your recorded notes in your sleep 😴',
+  'Meditate your mind 💆🏾‍',
+  'Drink plenty of water 💦',
+  'Treat ya self 🎁',
+  '🏃🏿‍ Start your day early, youll feel better 💪🏽 ',
+  'Never cram before exams 🙅🏻‍ youll forget, EVERYTHING 😂',
+   '🏃🏼‍💨 Dont be late ',
+   '👱🏾‍ How far can your creativity take you ?!',
+   'Study with friends 👩🏿‍💻 👨🏾‍💻👩🏼‍💻 ',
+   'If your not good with time mng., SET ALARMS ⏰! ',
+  'Make up games with your notes',
+  'Connect with me on LinkedIn 👩🏾‍💻@Mouminatou Barry'
+];
+
+function changeText(){
+  if(txtPosition !== btnTxt.length){
+    btn.innerHTML = btnTxt[txtPosition];
+    txtPosition += 1;
+  }
+  //WordsCalender
+
+}</script>
+</body>
+</html>
